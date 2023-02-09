@@ -26,21 +26,20 @@ ReactDOM.render(
       'https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/paper-image.png',
   },
 ] */
-
-/*  const currentDate = new Date()
+/* const currentDate = new Date()
     const date = currentDate.getDate()
     const month = currentDate.getMonth()
     const year = currentDate.getFullYear()
-    const dt2 = `${year}-${month}-${date}`
+    const dt2 = `(${year}, ${month}, ${date})`
     const userDate = new Date(userData.dateOfBirth)
     const newDate = userDate.getDate()
     const newMonth = userDate.getMonth()
     const newYear = userDate.getFullYear()
-    const dt1 = `${newYear}-${newMonth + 1}-${newDate}`
+    const dt1 = `(${newYear}, ${newMonth + 1}, ${newDate})`
     console.log(dt2)
-    console.log(dt1)
+    console.log(dt1) */
 
-    /* if (
+/* if (
       userData.username === '' &&
       userData.password === '' &&
       userData.conformPassword === '' &&

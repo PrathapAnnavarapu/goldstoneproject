@@ -1,0 +1,34 @@
+.img {
+  width: 120px;
+  height: 60px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+  padding: 20px;
+  background-color: aliceblue;
+}
+.logout {
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 8px;
+  border-style: none;
+  width: 120px;
+  height: 32px;
+  padding: 8px;
+}
+.not-found {
+  width: 450px;
+  height: 350px;
+}
+.found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}

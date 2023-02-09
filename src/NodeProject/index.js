@@ -52,6 +52,15 @@ app.post('/registration-details', async (request, response) => {
   response.send('Registered Successfully')
 })
 
+app.post('/api/login', async (request, response) => {
+  const {username, password} = request.body
+  // here  check the credentials with registered data of username and password.
+  // if is it match send success response otherwise failure response
+
+  await database.run('LoginQuery')
+  response.send('Login Successfully')
+})
+
 app.get('/registration-details', async (request, response) => {
   const getRegistrationQuery = `
     SELECT

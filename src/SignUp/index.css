@@ -50,6 +50,9 @@
   height: 3vh;
   margin: 5px;
 }
+.male {
+  margin-right: 30px;
+}
 .date-input {
   width: 26vw;
   height: 4vh;
