@@ -5,7 +5,7 @@ import './index.css'
 const RegistrationSuccess = () => (
   <div className="login-success-container">
     <img
-      src="https://assets.ccbp.in/frontend/react-js/success-icon-img.png"
+      src="https://www.shutterstock.com/image-vector/check-mark-icon-vector-design-260nw-1725792400.jpg"
       className="log-in-success-image"
       alt="success"
     />

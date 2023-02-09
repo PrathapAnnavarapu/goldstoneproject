@@ -1,0 +1,37 @@
+.table {
+  border-style: solid;
+  border-width: 1px;
+  width: 380px;
+  padding: 12px;
+}
+.img {
+  width: 120px;
+  height: 60px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+  padding: 20px;
+  background-color: aliceblue;
+}
+.logout {
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 8px;
+  border-style: none;
+  width: 120px;
+  height: 32px;
+  padding: 8px;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+}

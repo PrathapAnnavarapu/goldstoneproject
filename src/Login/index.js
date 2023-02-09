@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import {useState} from 'react'
 import Cookies from 'js-cookie'
+
 import './index.css'
 
 const Login = props => {
@@ -16,7 +17,7 @@ const Login = props => {
     Cookies.set('jwt_token', jwtToken, {
       expires: 30,
     })
-    history.replace('/')
+    history.replace('/preview')
   }
 
   const onSubmitFailure = errorMsg => {

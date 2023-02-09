@@ -1,3 +1,4 @@
+/* eslint-disable no-const-assign */
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unreachable */
 /* eslint-disable import/no-extraneous-dependencies */
@@ -30,6 +31,24 @@ function SignUp() {
       digit: /[0-9]/,
       // full: /^[@#]$/,
     }
+    /* const currentDate = new Date()
+    const date = currentDate.getDate()
+    const month = currentDate.getMonth()
+    const year = currentDate.getFullYear()
+    const dt2 = `(${year}, ${month}, ${date})`
+    const userDate = new Date(userData.dateOfBirth)
+    const newDate = userDate.getDate()
+    const newMonth = userDate.getMonth()
+    const newYear = userDate.getFullYear()
+    const dt1 = `(${newYear}, ${newMonth + 1}, ${newDate})`
+    const diffYears = (date1, date2) => {
+      const diff = (date2.getTime() - date1.getTime()) / 1000
+      diff /= 60 * 60 * 24
+      return Math.abs(Math.round(diff / 365.25))
+    }
+    const age = diffYears(dt1, dt2)
+    console.log(age) */
+
     if (!values.firstname) {
       errors.firstname = 'FirstName is Required!'
     }
@@ -63,6 +82,10 @@ function SignUp() {
     }
     if (!values.password) {
       errors.password = 'Password is Required!'
+    } else if (values.password.length < 7) {
+      errors.password = 'Password must have  grater than 8 characters!'
+    } else if (values.password.length > 15) {
+      errors.password = 'Password cannot grater than 16 characters!'
     } else if (!re.capital.test(values.password)) {
       errors.password = 'Password Must have at least one Capital Letter!'
     } else if (!re.digit.test(values.password)) {
