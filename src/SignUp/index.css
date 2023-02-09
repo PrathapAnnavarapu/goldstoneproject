@@ -1,0 +1,84 @@
+.main-container {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWBfHiZ1U4fQ8MIHdfyRdpDHkNDSu_OKtK4f-fkpeezp3k8HtWMRJVoS6-up-ek65DJIo&usqp=CAU');
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+.names-input {
+  width: 18vw;
+  height: 4vh;
+  margin: 5px;
+}
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.signup-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  height: 85vh;
+  width: 50vw;
+  overflow-y: scroll;
+}
+* {
+  font-family: Roboto;
+}
+.firstname {
+  font-size: 16px;
+  font-weight: 500;
+}
+.input {
+  width: 26vw;
+  height: 4vh;
+  margin: 5px;
+}
+.text-input {
+  width: 26vw;
+  height: 10vh;
+  margin: 5px;
+}
+.phone-input {
+  width: 23vw;
+  height: 3vh;
+  margin: 5px;
+}
+.date-input {
+  width: 26vw;
+  height: 4vh;
+  margin-top: 8px;
+}
+.country-input {
+  width: 5vw;
+  height: 4vh;
+  margin: 5px;
+}
+.signup {
+  background-color: dodgerblue;
+  color: white;
+  padding: 8px;
+  width: 120px;
+  border-radius: 8px;
+  border-style: none;
+  margin: 16px;
+}
+.star {
+  color: red;
+}
+.register-heading {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: dodgerblue;
+}
+.error-msg {
+  color: red;
+  font-size: 12px;
+}
