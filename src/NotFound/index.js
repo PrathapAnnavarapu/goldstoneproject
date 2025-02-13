@@ -9,7 +9,7 @@ const NotFound = () => (
         className="not-found"
       />
       <h1>Page Not Found</h1>
-      <p>We are sorry, the page you requested could not be found</p>
+      <p>We are sorry, the page you requested was not found</p>
       <button type="button">Retry</button>
     </div>
   </>
